@@ -85,6 +85,28 @@ export default {
 </style>
 ```
 
+## React
+
+### template
+From `classcomponent` + `[tab]`
+```js
+import React, { Component } from 'react'
+
+class myComponent extends Component {
+
+  static propTypes = {}
+
+  render() {
+    return (
+      <h1>test</h1>
+    )
+  }
+
+}
+
+export default myComponent
+```
+
 ## Python 3
 
 ### Python 3 core
